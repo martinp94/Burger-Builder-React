@@ -16,10 +16,12 @@ const orderSummary = (props) => {
             <p>Continue to checkout?</p>
             <Button 
                 click={props.clickContinue}
-                type='success' >Continue</Button>
+                type='success'
+                enabled={true} >Continue</Button>
             <Button 
                 click={props.clickCancel}
-                type='danger' >Cancel</Button>
+                type='danger'
+                enabled={true} >Cancel</Button>
         </React.Fragment>
     )
     
